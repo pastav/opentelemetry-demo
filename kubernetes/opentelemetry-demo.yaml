@@ -9248,7 +9248,7 @@ spec:
             timeoutSeconds: 1
           resources:
             limits:
-              memory: 400Mi
+              memory: 1Gi
           volumeMounts:
       securityContext:
         fsGroup: 10001
@@ -9431,7 +9431,7 @@ spec:
             successThreshold: 1
           resources:
             limits:
-              memory: 300Mi
+              memory: 800Mi
           volumeMounts:
             - name: config-volume
               mountPath: /etc/config
@@ -9504,7 +9504,7 @@ spec:
             value: service.name=$(OTEL_SERVICE_NAME),service.namespace=opentelemetry-demo,service.version=1.11.0
           resources:
             limits:
-              memory: 50Mi
+              memory: 250Mi
           volumeMounts:
       volumes:
       initContainers:
@@ -10380,7 +10380,7 @@ spec:
             value: service.name=$(OTEL_SERVICE_NAME),service.namespace=opentelemetry-demo,service.version=1.11.0
           resources:
             limits:
-              memory: 1Gi
+              memory: 2Gi
           volumeMounts:
       volumes:
 ---

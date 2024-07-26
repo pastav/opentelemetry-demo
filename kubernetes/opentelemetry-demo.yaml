@@ -10309,7 +10309,6 @@ spec:
           resources:
             limits:
               memory: 1Gi
-              cpu: 100m
           securityContext:
             runAsGroup: 1000
             runAsNonRoot: true

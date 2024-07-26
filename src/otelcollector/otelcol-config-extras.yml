@@ -8,11 +8,13 @@
 ## Note: the spanmetrics exporter must be included in the exporters array
 ## if overriding the traces pipeline.
 ##
-#  exporters:
-#    otlphttp/example:
-#      endpoint: <your-endpoint-url>
-#
-#  service:
-#    pipelines:
-#      traces:
-#        exporters: [spanmetrics, otlphttp/example]
+exporters:
+  signozhttp:
+    endpoint: http://141.148.199.176:4318
+  signozgrpc:
+    endpoint: http://141.148.199.176:4317
+
+service:
+  pipelines:
+    traces:
+      exporters: [spanmetrics, signozhttp, signozgrpc]

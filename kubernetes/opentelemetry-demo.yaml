@@ -9505,7 +9505,7 @@ spec:
           resources:
             limits:
               memory: 500Mi
-              cpu: 100Mi
+              cpu: 100m
           volumeMounts:
       volumes:
       initContainers:
@@ -9579,7 +9579,7 @@ spec:
           resources:
             limits:
               memory: 500Mi
-              cpu: 100Mi
+              cpu: 100m
           volumeMounts:
       volumes:
 ---
@@ -9647,7 +9647,7 @@ spec:
           resources:
             limits:
               memory: 500Mi
-              cpu: 100Mi
+              cpu: 100m
           volumeMounts:
       volumes:
       initContainers:
@@ -9733,7 +9733,7 @@ spec:
           resources:
             limits:
               memory: 500Mi
-              cpu: 100Mi
+              cpu: 100m
           volumeMounts:
       volumes:
       initContainers:
@@ -9803,7 +9803,7 @@ spec:
           resources:
             limits:
               memory: 500Mi
-              cpu: 100Mi
+              cpu: 100m
           volumeMounts:
       volumes:
 ---
@@ -9865,7 +9865,7 @@ spec:
           resources:
             limits:
               memory: 500Mi
-              cpu: 100Mi
+              cpu: 100m
           volumeMounts:
       volumes:
 ---
@@ -9994,7 +9994,7 @@ spec:
           resources:
             limits:
               memory: 500Mi
-              cpu: 100Mi
+              cpu: 100m
           volumeMounts:
       volumes:
       initContainers:
@@ -10088,7 +10088,7 @@ spec:
           resources:
             limits:
               memory: 500Mi
-              cpu: 100Mi
+              cpu: 100m
           securityContext:
             runAsGroup: 1001
             runAsNonRoot: true
@@ -10245,7 +10245,7 @@ spec:
           resources:
             limits:
               memory: 500Mi
-              cpu: 100Mi
+              cpu: 100m
           volumeMounts:
       volumes:
 ---
@@ -10309,7 +10309,7 @@ spec:
           resources:
             limits:
               memory: 1Gi
-              cpu: 100Mi
+              cpu: 100m
           securityContext:
             runAsGroup: 1000
             runAsNonRoot: true
@@ -10454,7 +10454,7 @@ spec:
           resources:
             limits:
               memory: 500Mi
-              cpu: 100Mi
+              cpu: 100m
           securityContext:
             runAsGroup: 1000
             runAsNonRoot: true
@@ -10522,7 +10522,7 @@ spec:
           resources:
             limits:
               memory: 500Mi
-              cpu: 100Mi
+              cpu: 100m
           volumeMounts:
       volumes:
 ---
@@ -10584,7 +10584,7 @@ spec:
           resources:
             limits:
               memory: 500Mi
-              cpu: 100Mi
+              cpu: 100m
           securityContext:
             runAsGroup: 33
             runAsNonRoot: true
@@ -10658,7 +10658,7 @@ spec:
           resources:
             limits:
               memory: 500Mi
-              cpu: 100Mi
+              cpu: 100m
           volumeMounts:
       volumes:
 ---
@@ -10720,7 +10720,7 @@ spec:
           resources:
             limits:
               memory: 500Mi
-              cpu: 100Mi
+              cpu: 100m
           volumeMounts:
       volumes:
 ---
@@ -10776,7 +10776,7 @@ spec:
           resources:
             limits:
               memory: 500Mi
-              cpu: 100Mi
+              cpu: 100m
           securityContext:
             runAsGroup: 1000
             runAsNonRoot: true
